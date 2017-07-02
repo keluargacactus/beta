@@ -29,12 +29,12 @@ permalink: /faq/
                <div class="sparator"></div>
                <h3>Diamana saya bisa melihat produk Keluarga Cactus?</h3>
                <p>
-                  <span class="btn btn-success btn-xs">Jawaban</span> Untuk melihat katalog produk anda bisa melihat di website ini pada bagian <a href="kaktus.html">Kaktus</a> untuk mencari tanaman dengan jenis kaktus. Atau bisa melihat di Instagram <a href="khttps://instagram.com/keluargacactus">@keluargacactus</a> dan Facebook <a href="khttps://facebook.com/keluargacactus">@keluargacactus</a>.
+                  <span class="btn btn-success btn-xs">Jawaban</span> Untuk melihat katalog produk anda bisa melihat di website ini pada bagian <a href="{{ site.baseurl }}/kaktus/">Kaktus</a> untuk mencari tanaman dengan jenis kaktus. Atau bisa melihat di Instagram <a href="khttps://instagram.com/{{ site.instagram_username }}">@{{ site.instagram_username }}</a> dan Facebook <a href="khttps://facebook.com/{{ site.facebook_username }}">@{{ site.facebook_username }}</a>.
                </p>
                <div class="sparator"></div>
                <h3>Bagaimana proses membeli di Keluarga Cactus?</h3>
                <p>
-                  <span class="btn btn-success btn-xs">Jawaban</span> Silahkan melihat panduanya di <a href="cara-membeli.html">halaman berikut</a>.
+                  <span class="btn btn-success btn-xs">Jawaban</span> Silahkan melihat panduanya di <a href="{{ site.baseurl }}/cara-membeli/">halaman berikut</a>.
                </p>
                <div class="sparator"></div>
                <h3>Berapa lama proses pengiriman kaktus saya?</h3>
@@ -44,7 +44,7 @@ permalink: /faq/
                <div class="sparator"></div>
                <h3>Bagaimana cara menghubungi Keluarga Cactus?</h3>
                <p>
-                  <span class="btn btn-success btn-xs">Jawaban</span> Anda bisa menghubungi kami melalui kontak yang ada di <a href="kontak-kami.html">halaman berikut</a>.
+                  <span class="btn btn-success btn-xs">Jawaban</span> Anda bisa menghubungi kami melalui kontak yang ada di <a href="{{ site.baseurl }}/kontak-kami/">halaman berikut</a>.
                </p>
                <div class="sparator"></div>
                <h3>Apakah saya bisa melacak barang saya?</h3>
