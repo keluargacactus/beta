@@ -18,7 +18,7 @@ permalink: /kontak-kami/
    <div class="container">
       <div class="row">
          <div class="col-md-6 text-center">
-            <img src="img/call.png" alt="" style="margin-bottom:20px;max-width:400px">
+            <img src="{{ site.baseurl }}/assets/img/call.png" alt="" style="margin-bottom:20px;max-width:400px">
          </div>
          <div class="col-md-6">
             <div class="brand-wrapper text-md">
