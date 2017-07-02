@@ -31,7 +31,7 @@
       <div class="row">
          <div class="col-sm-6">
             <div class="logo">
-               <h1><a href="index.html"><img src="{{ site.baseurl }}/assets/img/logo_kcactus_hjg.png"></a></h1>
+               <h1><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo_kcactus_hjg.png"></a></h1>
                <span class="desc hide">Jual kaktus dan sukulen</span>
             </div>
          </div>
@@ -58,14 +58,14 @@
          <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav ">
                <li class="small-logo-bar"><img src="{{ site.baseurl }}/assets/img/logo_only_kcactus_hj.png"></li>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="kaktus.html">Kaktus</a></li>
-               <li><a href="sukulen.html">Sukulen</a></li>
-               <li><a href="pot.html">Pot</a></li>
-               <li class="active"><a href="cara-membeli.html">Cara Membeli</a></li>
-               <li><a href="tips-merawat.html">Tips Merawat</a></li>
-               <li><a href="kontak-kami.html">Kontak</a></li>
-               <li><a href="about.html">About</a></li>
+               <li><a href="{{ site.baseurl }}/">Home</a></li>
+               <li><a href="{{ site.baseurl }}/kaktus">Kaktus</a></li>
+               <li><a href="{{ site.baseurl }}/sukulen">Sukulen</a></li>
+               <li><a href="{{ site.baseurl }}/pot">Pot</a></li>
+               <li class="active"><a href="{{ site.baseurl }}/cara-membeli">Cara Membeli</a></li>
+               <li><a href="{{ site.baseurl }}/tips-merawat">Tips Merawat</a></li>
+               <li><a href="{{ site.baseurl }}/kontak-kami">Kontak</a></li>
+               <li><a href="{{ site.baseurl }}/about">About</a></li>
                {% for path in page_paths %}
                   {% assign my_page = site.pages | where: "path", path | first %}
                   {% if my_page.title %}
