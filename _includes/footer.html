@@ -1,46 +1,105 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+<!-- footer -->
+<div class="footer-top-area">
+   <div class="zigzag-bottom"></div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-about-us">
+               <img src="img/logo_only_kcactus_hj.png" class="logo-bottom">
+               <p>
+                  <b>Keluarga Cactus</b> {{ site.description | escape }}
+               </p>
+               <p class="social">
+                  <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook"></i> <span class="text-grey">@{{ site.facebook_username }}</span></a><br/>
+                  <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank"><i class="fa fa-instagram"></i> <span class="text-grey">@{{ site.instagram_username }}</span></a><br/>
+                  <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_api }}&text=Hi!%20@keluargacactus%20:%20" target="_blank"><i class="fa fa-whatsapp"></i> <span class="text-grey">{{ site.whatsapp_readable }} (Whatsapp/SMS)</span></a><br/>
+               </p>
+               <div class="footer-social">
+                  <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_api }}&text=@keluargacactus%20:%20" target="_blank"><i class="fa fa-whatsapp"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-menu">
+               <h2 class="footer-wid-title">Link</h2>
+               <ul>
+                  <li><a href="cara-membeli.html">Cara Membeli</a></li>
+                  <li><a href="konfirmasi-pembayaran.html">Konfirmasi Pembayaran</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="tips-merawat.html">Cara Merawat</a></li>
+                  <li><a href="kontak-kami.html">Kontak</a></li>
+                  <li><a href="about.html">About</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-menu">
+               <h2 class="footer-wid-title">Produk</h2>
+               <ul>
+                  <li><a href="kaktus.html">Kaktus</a></li>
+                  <li><a href="sukulen.html">Sukulen</a></li>
+                  <li><a href="pot.html#">Pot</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-newsletter">
+               <h2 class="footer-wid-title">Cek Pengiriman</h2>
+               <p>Anda bisa memeriksa paket kiriman anda dengan memasukan nomor resi pada kotak dibawah.</p>
+               <div class="newsletter-form">
+                  <form method="GET" action="http://www.cekresi.com" target="_blank" id="cekresiform" name="cekresiform">
+                     <input type="text"  name="noresi" value="" placeholder="Nomor Resi"/>
+                     <input type="hidden" name="v" value="w1"/>
+                     <button type="submit"  id="cekbutton">Cek Resi</button>    
+                     <em>Powered by cekresi.com</em>
+                  </form>
+               </div>
+            </div>
+         </div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+   </div>
+</div>
+<!-- End footer top area -->
+<div class="footer-bottom-area">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8">
+            <div class="copyright">
+               <p>&copy; 2017 <a href="">Keluarga Cactus</a> powered by uCommerce. </p>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="motto">
+               <p>
+                  Grow Cactus <span class="fa fa-tree text-success"></span>, Grow Love <span class="fa fa-heart text-danger"></span> 
+               </p>
+            </div>
+         </div>
+         <div class="col-md-4 hide">
+            <div class="footer-card-icon">
+               <i class="fa fa-cc-discover"></i>
+               <i class="fa fa-cc-mastercard"></i>
+               <i class="fa fa-cc-paypal"></i>
+               <i class="fa fa-cc-visa"></i>
+            </div>
+         </div>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+   </div>
+</div>
+<!-- End footer bottom area -->
+<!-- Latest jQuery form server -->
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<!-- Bootstrap JS form CDN -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- jQuery sticky menu -->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<!-- jQuery easing -->
+<script src="js/jquery.easing.1.3.min.js"></script>
+<!-- Main Script -->
+<script src="js/main.js"></script>
+<!-- Slider -->
+<script type="text/javascript" src="js/bxslider.min.js"></script>
+<script type="text/javascript" src="js/script.slider.js"></script>
