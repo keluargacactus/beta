@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Keluarga Cactus - About
 permalink: /about/
 ---
 <div class="product-big-title-area">
