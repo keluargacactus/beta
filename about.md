@@ -18,7 +18,7 @@ permalink: /about/
    <div class="container">
       <div class="row">
          <div class="col-md-6 text-center">
-            <img src="assets/img/store_about.png" width="90%" alt="" style="margin-bottom:20px;max-width:400px">
+            <img src="{{ site.baseurl }}assets/img/store_about.png" width="90%" alt="" style="margin-bottom:20px;max-width:400px">
          </div>
          <div class="col-md-6">
             <div class="brand-wrapper text-md">
@@ -35,7 +35,7 @@ permalink: /about/
                </p>
                <p class="text-center">
                   <br/>
-                  <img src="assets/img/logo_kcactus_hj.png" width="200px" alt="Logo Keluarga Cactus www.keluargacactus.com">
+                  <img src="{{ site.baseurl }}assets/img/logo_kcactus_hj.png" width="200px" alt="Logo Keluarga Cactus www.keluargacactus.com">
                </p>
             </div>
          </div>
