@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Keluarga Cactus - About
-permalink: /about.html
+permalink: /about/
 ---
 <div class="product-big-title-area">
    <div class="container">
